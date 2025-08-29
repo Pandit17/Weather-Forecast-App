@@ -1,4 +1,6 @@
-const apiKey = "2a7e36a581293c509bf77e080525d180";
+// GOOD: get the key from environment variables
+const apiKey = process.env.OPENWEATHERMAP_KEY;
+
 
 const searchBtn = document.getElementById("searchBtn");
 const geoBtn = document.getElementById("geoBtn");
