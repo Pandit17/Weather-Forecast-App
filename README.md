@@ -1,6 +1,6 @@
 # Weather Forecast App 🌤️
 
-A **beautiful, responsive weather forecasting app** built with **vanilla JavaScript, HTML, and Tailwind CSS**.
+A **beautiful, responsive weather forecasting app** built with **vanilla JavaScript, HTML, and Tailwind CSS**.  
 Get **current weather** and a **5-day forecast** for any city, with **dynamic and shiny backgrounds** based on weather conditions.
 
 ---
@@ -21,15 +21,17 @@ Get **current weather** and a **5-day forecast** for any city, with **dynamic an
 ## Folder Structure 🗂️
 
 ```
+
 T.W.CSS/
-  └─src/
-    └─ Weather_Project/
-        ├─ index.html
-        ├─ script.js
-        └─ output.css  (Tailwind CSS generated)
-Tail Wind
+└─ src/
+└─ Weather_Project/
+├─ index.html
+├─ script.js
+└─ output.css  (Tailwind CSS generated)
+Tail Wind CSS/
 └─ tailwind.config.js
-```
+
+````
 
 ---
 
@@ -41,13 +43,16 @@ Tail Wind
 
    ```bash
    npm install -D tailwindcss
-   ```
+````
+
 4. Generate `output.css`:
 
    ```bash
    npx tailwindcss -c ../../tailwind.config.js -i ../input.css -o ./output.css --watch
    ```
+
 5. Open `index.html` in a browser to run the application.
+
 6. Enter a city or use your current location to see weather updates.
 
 ---
@@ -104,4 +109,5 @@ Tail Wind
 * Make sure you have a valid **OpenWeatherMap API key** in `script.js`.
 * Tailwind CSS should be compiled into `output.css` before opening the app.
 
----
+````
+
