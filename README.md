@@ -5,6 +5,11 @@ Get **current weather** and a **5-day forecast** for any city, with **dynamic an
 
 ---
 
+🔗 **GitHub Repository:** [Pandit17/Weather-Forecast-App](https://github.com/Pandit17/Weather-Forecast-App)
+
+---
+
+
 ## Features ✨
 
 1. **Search by city:** Enter a city name to fetch current weather and forecast.
